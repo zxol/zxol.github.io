@@ -1,0 +1,60 @@
+---
+layout: page
+title: search
+permalink: /search/
+tags: search
+---
+
+<div class="py2">
+  <div id="search-box">
+    <!-- SearchBox widget will appear here -->
+  </div>
+  <br/>
+  <div id="refinement-list">
+    <!-- RefinementList widget will appear here -->
+  </div>
+  <br/>
+  <div id="hits">
+    <!-- Hits widget will appear here -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.2"></script>
+  <script>
+   const search = instantsearch(options);
+
+   // initialize RefinementList
+   search.addWidget(
+     instantsearch.widgets.refinementList({
+       container: '#refinement-list',
+       attributeName: 'categories'
+     })
+   );
+   // initialize SearchBox
+   search.addWidget(
+     instantsearch.widgets.searchBox({
+       container: '#search-box',
+       placeholder: 'Search site'
+     })
+   );
+
+    formatHit = (title, url, date, summary) => {
+    const d = new Date(date * 1000)
+    let dateFormatted = d.toLocaleString().slice(0,-10) + "&nbsp;&nbsp;&nbsp;"
+    if (isNaN(d.getTime())) dateFormatted = ""
+    return `<div><span>${dateFormatted}</span><a href="${url}">${title}</a>&nbsp;&nbsp;&nbsp;<p>${summary || ""}</p></div>`
+   }
+   // initialize hits widget
+   search.addWidget(
+     instantsearch.widgets.hits({
+       container: '#hits',
+       templates: {
+         empty: 'No results',
+         // item: data => JSON.stringify(data),
+         item: data => formatHit(data.title, data.url, data.date, data.summary)
+       }
+     })
+   );
+
+   search.start();
+  </script>
+</div>

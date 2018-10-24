@@ -9,6 +9,7 @@ date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  - contact.html
+ - search.html
 
 # Google services
 google_verification:
@@ -113,7 +114,9 @@ text:
       error:    'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
-
+algolia:
+  application_id: FHPY1G0B0L
+  index_name:     jekyll # You can replace that with whatever name you want
 # Build settings
 markdown:     kramdown
 redcarpet:
