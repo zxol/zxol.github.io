@@ -2,7 +2,7 @@
 layout:     post
 title:      Hello World!
 date:       2018-10-24 10:42
-summary:    This is the summary.
-categories: jj
+summary:    Inaugural post.
+categories: news
 ---
-Hello world.
+We shall proceed momentarily, my little nerdlings.  Pip pip and tally ho.
