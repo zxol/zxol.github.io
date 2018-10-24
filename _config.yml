@@ -116,7 +116,21 @@ text:
   og_locale: 'en_US'
 algolia:
   application_id: FHPY1G0B0L
-  index_name:     jekyll # You can replace that with whatever name you want
+  index_name:     zxol # You can replace that with whatever name you want
+  extensions_to_index:
+    # - html
+    - md
+  files_to_exclude:
+    - _layouts/**/*
+    - _includes/**/*
+    - _site/**/*
+    - index.html
+    - about.md
+    - search.html
+    - contact.html
+    - thanks.md
+    - old/**/*
+
 # Build settings
 markdown:     kramdown
 redcarpet:
