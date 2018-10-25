@@ -74,12 +74,12 @@ That is not Mr. Fuji.
 ```
 Do you like this (particular) sushi?
 ```
-わたしのです
+**わたしの**です
 ```
 It's Mine.
 ```
 
-あなたのはあおです
+**あなたの**はあおです
 
 ```
 Yours is blue.
