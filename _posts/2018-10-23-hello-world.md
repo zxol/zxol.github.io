@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World!
-date: '2018-10-24 10:42'
+date: '2018-10-23 10:42'
 summary: Inaugural post.
 categories: news
 published: true
