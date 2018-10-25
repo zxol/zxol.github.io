@@ -61,12 +61,12 @@ Note that these don't need to be paired with a noun to be grammatically correct.
 This is sushi.
 ```
 
-**それ**はおおきです。 
+**それ**はおおきいです。 
  ```
 That is big.
 ```
 
-**あれ**はふじさんでわありまえん。
+**あれ**はふじさんではありまえん。
 ```
 That is not Mr. Fuji.
 ```
