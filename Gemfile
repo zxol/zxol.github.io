@@ -7,4 +7,5 @@ gem 'github-pages'
 
 group :jekyll_plugins do
   gem 'jekyll-algolia'
+  gem 'jekyll-compose'
 end
