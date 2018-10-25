@@ -3,7 +3,7 @@ layout: post
 title: This, that, mine and yours
 date: 2018-10-24 16:17 +0900
 summary: A Japanese vocabulary note.
-catagories: japanese vocabulary beginner
+categories: japanese vocabulary beginner
 ---
 ![pointing](https://images.unsplash.com/photo-1498832229091-4425cea65b29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=81fc956f1ce0dc2aff5ce55ece5384a3&auto=format&fit=crop&w=1350&q=80)
 
